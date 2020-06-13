@@ -1,0 +1,112 @@
+@font-face {
+ font-family: ass;
+ src:url("font/16858.ttf");
+}
+@font-face {
+ font-family: a;
+ src:url("font/16851.ttf");
+}
+body{
+	 background-color: #012233;
+	max-width: 100%;
+
+}
+.slotImages{
+	max-width: 1050px;
+	margin:0 auto;
+	position: relative;
+}
+.container{
+	position: relative;
+}
+.bool{
+	position: absolute;
+	top: 28%;
+	right:-8%;
+}
+.bool1{
+	position: absolute;
+	top: 60%;
+	right:-4%;
+
+
+}
+.bool2{
+	position: absolute;
+	top: 64.5%;
+	right:-1.5%;
+
+}
+
+.images {
+     height: 220px;
+    overflow: hidden;
+    position: absolute;
+    top: 259px;
+    left: 24.2%;
+
+}
+.images1 {
+     height: 220px;
+    overflow: hidden;
+    position: absolute;
+    top: 259px;
+    left: 41.6%;
+
+}
+.images2 {
+     height: 220px;
+    overflow: hidden;
+    position: absolute;
+    top: 259px;
+    left: 59.1%;
+}
+.bal{
+	position: absolute;
+	font-size:25px;
+	color:#ea3c3c;
+	top: 10%;
+	 font-family: a;
+}
+#but,#butplay,#pous{
+	    background-color: #012233;
+    border-color: #012233;
+    border: none;
+    cursor: pointer;
+
+}
+
+#but:focus {
+   outline: none;
+}
+#butplay:focus {
+   outline: none;
+}
+#pous:focus {
+   outline: none;
+}
+
+#pous{
+	display: none;
+	cursor: pointer;
+
+}
+#pouse{
+	background-color: #012233;
+    border-color: #012233;
+    border: none;
+    cursor: pointer;
+
+}
+.bal span{
+	 font-family: ass;
+}
+#balans{
+	color:#ffd400d4;
+}
+#non{
+	color:yellow;
+	 font-family: ass;
+	 top: 15%;
+	 opacity: 0;
+}
